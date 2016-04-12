@@ -110,7 +110,7 @@ background-color: #3371FF;
   width: 150px;
 }
 .box:hover {
-  background: #BBBEC4;
+  background-color: aqua;
   border-radius: 50%;
 }
 .about{
@@ -118,4 +118,5 @@ background-color: #3371FF;
 }
 .gray{
     background-color:#BBBEC4;
+    font-size: 18px;
 }

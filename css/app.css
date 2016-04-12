@@ -110,6 +110,12 @@ background-color: #3371FF;
   width: 150px;
 }
 .box:hover {
-  background: #ff7b29;
+  background: #BBBEC4;
   border-radius: 50%;
+}
+.about{
+    text-align: center;
+}
+.gray{
+    background-color:#BBBEC4;
 }

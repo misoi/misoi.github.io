@@ -107,11 +107,11 @@ background-color: #3371FF;
   transition-property: background, border-radius;
   transition-duration: .2s, 1s;
   transition-timing-function: linear;
-  width: 150px;
+  width: 250px;
 }
 .box:hover {
   background-color: aqua;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 .about{
     text-align: center;
@@ -119,4 +119,8 @@ background-color: #3371FF;
 .gray{
     background-color:#BBBEC4;
     font-size: 18px;
+}
+.button{
+    background-color: aqua;
+    color: black;
 }

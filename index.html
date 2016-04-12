@@ -21,11 +21,11 @@
     <div class="row">
   <div class=" large-5 columns"><!-- ... --></div>
   <div class=" large-7 columns">
-      <ul class="menu">
-  <li class="active"><a href="index.html">Home</a></li>
-  <li class="active"><a href="">About</a></li>
-  <li class="active"><a>portfolio</a></li>
-   <li class="active"><a>contact</a></li>
+      <ul class="menu hover">
+  <li ><a href="index.html">Home</a></li>
+  <li ><a href="#about">About</a></li>
+  <li ><a>portfolio</a></li>
+   <li ><a>contact</a></li>
 </ul></div>
 </div>
 <!--
@@ -57,7 +57,8 @@ Website design and developent is not only my career but also its my hobby.
 My passion is to create accessible and unique websites. </div>
       </div></div>
 <!--           <div class="box">Talk to me</div>-->
-              <a class="large button box" href="#">talk to me</a>
+              <a data-open="exampleModal1" class="large button box" id="myBtn">For more details</a>
+<!--                <p><a >Contact me</a></p>-->
               <br><br><br>
           </div>
 
@@ -65,7 +66,7 @@ My passion is to create accessible and unique websites. </div>
 --->
 
    <div class="large-12 columns h"><br><br></div>
-<div class="row" id="about">
+<div class="row">
       <div class="large-12 columns about">
     <h1>About me</h1>
     </div>
@@ -81,9 +82,25 @@ My passion is to create accessible and unique websites. </div>
     <div class="large-12 columns h"><br><br></div>
     <div class="large-12 columns">
           <div class="large-1 columns"><br></div>
-          <div class="large-5 columns">
-          <br>
+          <div class="large-3 columns border gray">
+         <h3>SKILLS</h3>
+              <ol>
+             <li> Front End:-</li>
+              <ul><li>HTML5</li>
+              <li>CSS3</li>
+                   <li>Javascript</li>
+              <li>C# programming language</li>
+                  </ul>
+            <li>  BAck-end</li>
+                  <ul>
+                      <li>JAVA</li>
+                  </ul>
+
+
+              </ol>
+
           </div>
+        <div class="large-2 columns"><br></div>
           <div class="large-5 columns  border gray">
         <h4>HOBBIES:-</h4>
               <li>Coding</li>
@@ -93,12 +110,33 @@ My passion is to create accessible and unique websites. </div>
               <li>Making friends</li>
         </div>
           <div class="large-1 columns"></div>
+         <div class="large-12 columns h"><br><br></div>
+    </div>
+        </div>
+<!--          modal window-->
 
-    </div></div>
+
+<div class="reveal modal" id="exampleModal1" data-reveal>
+
+  Don't hesitate...ask anything
+  <p class="lead"><label>Name</label><br>
+    <input type="text" value="Your name" size="30">
+      <label>Email</label><br>
+    <input type="text" value="eg@gmail.com" size="30">
+      <label>Phone No:</label><br>
+    <input type="text" value="+254" size="30">
+    </p>
+  <input type="button" value="Submit" class="button">
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-          </div>
+        </div>
   </body>
 </html>

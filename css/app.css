@@ -85,6 +85,10 @@ background-color: #33383b;
 .font{
     font-family: 'Bree Serif', serif;
 }
+.f{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 
 /*animation css*/
 .slideUp{

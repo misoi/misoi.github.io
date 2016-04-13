@@ -42,7 +42,7 @@ background-color: #33383b;
   width: 250px;
 }
 .box:hover {
-  background-color: aqua;
+  background-color: red;
   border-radius: 100%;
 }
 .about{
@@ -81,7 +81,7 @@ background-color: #33383b;
 }
 .font{
     font-family: 'Bree Serif', serif;
-    color: blue;
+    color:#FF0000;
 }
 .f{
     font-family: 'Yanone Kaffeesatz', sans-serif;

@@ -3,6 +3,9 @@
     background-image: url(coolbreeze-on-the-beach-.jpg);
     background-size: cover
 }
+.row{
+    max-width: 1350px;
+}
 
 .p{
     font-family: 'Lobster', cursive;
@@ -20,44 +23,7 @@
     border-radius: 100%;
 }
 
-@keyframes bounceInLeft {
-  from, 60%, 75%, 90%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
 
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-3000px, 0, 0);
-    transform: translate3d(-3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(25px, 0, 0);
-    transform: translate3d(25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(5px, 0, 0);
-    transform: translate3d(5px, 0, 0);
-  }
-
-  to {
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.bounceInLeft {
-  -webkit-animation-name: bounceInLeft;
-  animation-name: bounceInLeft;
-}
 .border{
     border: 15px solid white;
  -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,.8);
@@ -101,6 +67,7 @@ background-color: #3371FF;
     background-image: url(../img/beautiful-waterfall-ytgifs-8lo8-o.gif);
     background-size:contain;
    background-repeat: no-repeat;
+
 }
 .hi{
     height: 50px;
@@ -109,3 +76,67 @@ background-color: #3371FF;
     background-color: #191970;
     margin-left: 10px;
 }
+.b{
+    background-color: aquamarine;
+}
+.w{
+    background-color: white;
+}
+
+/*animation css*/
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;
+
+	animation-duration: 6s;
+	-webkit-animation-duration: 6s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+	50%{
+		transform: translateY(-8%);
+	}
+	65%{
+		transform: translateY(4%);
+	}
+	80%{
+		transform: translateY(-4%);
+	}
+	95%{
+		transform: translateY(2%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+	50%{
+		-webkit-transform: translateY(-8%);
+	}
+	65%{
+		-webkit-transform: translateY(4%);
+	}
+	80%{
+		-webkit-transform: translateY(-4%);
+	}
+	95%{
+		-webkit-transform: translateY(2%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}
+
+/*

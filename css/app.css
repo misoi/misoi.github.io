@@ -12,6 +12,7 @@ body{
         border-radius: 8px;
 
 }
+.font[]
 #menu a {
     text-decoration: none;
     color:#00bfff;
@@ -24,7 +25,7 @@ padding: 20px;
 /* home page */
 
 .body{
-    background-image: url(coolbreeze-on-the-beach-.jpg);
+    background-image:url(../img/rocky-mountains-04.jpg);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
@@ -39,8 +40,14 @@ padding: 20px;
     color: white;
     font-family: 'Courgette', cursive;
 }
+.white{
+    color: white;
+}
 .img{
    border-radius: ;
+}
+.pi{
+    color: black;
 }
 .img img{
     width: 300px;
@@ -57,8 +64,8 @@ padding: 20px;
 background-color: #33383b;
   border-radius: 2px;
   cursor: pointer;
-  height: 75px;
-  line-height: 95px;
+  height: 55px;
+  line-height: 75px;
   text-align: center;
   transition-property: background, border-radius;
   transition-duration: .2s, 1s;
@@ -79,10 +86,10 @@ background-color: #33383b;
 .button{
     background-color:#00bfff;
     color: black;
-    width: 10px;
+    width: 100px;
 }
 .modal{
-    background-color: gray;
+    background-color:#819FF7;
 }
 .centre{
     text-align: center;
@@ -100,6 +107,9 @@ background-color: #33383b;
 }
 .b{
     background-color: aquamarine;
+}
+.fu{
+    font-size: 20px;
 }
 .w{
     background-color: white;
@@ -119,8 +129,8 @@ background-color: #33383b;
 	animation-name: slideUp;
 	-webkit-animation-name: slideUp;
 
-	animation-duration: 3s;
-	-webkit-animation-duration: 3s;
+	animation-duration:5s;
+	-webkit-animation-duration: 5s;
 
 	animation-timing-function: ease;
 	-webkit-animation-timing-function: ease;

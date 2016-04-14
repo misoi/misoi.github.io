@@ -129,24 +129,27 @@ My passion is to create accessible and unique websites. </div>
 <div class="large-12 columns h1 white"></div>
               </div>
 
-<!--          modal window-->
+<!--          modal window with validation-->
+
+
+
 
 
 <div class="reveal modal" id="exampleModal1" data-reveal>
-
+<form action="demo_form.asp" method="post">
   <p class="p pi">Let's talk</p>
   <p class="lead"><label>Name</label><br>
-    <input type="text" placeholder="Your full name" size="30">
-      <label>Email</label><br>
-    <input type="text"  placeholder="eg@gmail.com" size="30">
+    <input type="text" placeholder="Your full name" size="30" required>
+        <label>Email:</label><br>
+    <input type="text"  placeholder="eg@gmail.com" size="30" required>
       <label>Phone No:</label><br>
-    <input type="text" placeholder="+254" size="30">
+    <input type="text" placeholder="+254" size="30" required>
     </p>
-  <input type="button" value="Submit" class="button">
+  <input type="submit" value="Submit" class="button">
   <button class="close-button" data-close aria-label="Close modal" type="button">
     <span aria-hidden="true">&times;</span>
   </button>
-</div>
+</form></div>
 <!--footer-->
 
           <div class="large-12 columns hi white"><br><br></div>
@@ -182,7 +185,7 @@ My passion is to create accessible and unique websites. </div>
     </div>
   </div>
 </footer>
-
+<script src="js/textval.js"></script> <!--texts validation-->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>

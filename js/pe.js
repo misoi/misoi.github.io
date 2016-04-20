@@ -168,4 +168,46 @@ function createDiv(height, width) {
   return (div);
 }
 // ]]>
-</script>
+(function($,W,D)
+{
+    var JQUERY4U = {};
+
+    JQUERY4U.UTIL =
+    {
+        setupFormValidation: function()
+        {
+            //form validation rules
+            $("#register-form").validate({
+                rules: {
+                  name: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                   phoneno: {
+                        required: true,
+                        minlength: 10
+                    },
+                    agree: "required"
+                },
+                messages: {
+                    name: "Please enter your Name",
+                   phoneno: {
+                        required: "Please provide a PhoneNo:",
+                        minlength: "Your password must be at least 5 characters long"
+                    },
+                    email: "Please enter a valid email address",
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+        }
+    }
+
+    //when the dom has loaded setup form validation rules
+    $(D).ready(function($) {
+        JQUERY4U.UTIL.setupFormValidation();
+    });
+
+})(jQuery, window, document);

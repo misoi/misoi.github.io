@@ -1,6 +1,9 @@
 body{
     background-color: white;
 }
+.sticky {
+  width: 100%;
+}
 #menu {
     width: 700px;
     height: 45px;

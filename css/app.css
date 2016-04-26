@@ -5,6 +5,11 @@ body{
   width: 100%;
 
 }
+.me{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+    color: white;
+}
 
 .black{
     background-color:#33383b;

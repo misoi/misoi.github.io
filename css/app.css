@@ -35,7 +35,7 @@ body{
 }
 #menu li {
 display: inline-block;
-padding: 5px;
+padding:5px;
     color: white;
 
 }
@@ -108,7 +108,7 @@ background-color: #33383b;
     width: 100px;
 }
 .modal{
-    background-color:#819FF7;
+    background-color:#33383b;
 }
 .centre{
     text-align: center;
@@ -134,7 +134,7 @@ background-color: #33383b;
     margin-left: 10px;
 }
 .b{
-    background-color: aquamarine;
+    background-color:white;
 }
 .fu{
     font-size: 20px;

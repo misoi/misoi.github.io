@@ -102,6 +102,10 @@ background-color: #33383b;
     background-color:#BBBEC4;
     font-size: 18px;
 }
+.skills{
+    padding: 20px;
+    margin: 3px;
+}
 .button{
     background-color:#00bfff;
     color: black;

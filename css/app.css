@@ -136,6 +136,9 @@ background-color: #33383b;
 .h{
     height: 200px
 }
+.gray{
+    background-color: gainsboro
+}
 .m{
     font-size: 40px;
 }

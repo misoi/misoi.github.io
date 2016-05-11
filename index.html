@@ -243,7 +243,7 @@
                         </div>
                         <div class="fieldgroup">
                             <label for="comment">Message:</label>
-                            <textarea value="Your message" placeholder="Put your message here"></textarea>
+                            <textarea value="Your message" name="message" placeholder="Put your message here"></textarea>
                         </div>
                         <div class="fieldgroup">
                             <input type="submit" value="submit" class="button submit " />
@@ -274,13 +274,23 @@
                         email.focus();
                         return false;
                     }
+                    if (mail.value.indexOf("@", 0) < 0) {
+                        window.alert("Please enter a valid e-mail address.");
+                        email.focus();
+                        return false;
+                    }
+                    if (mail.value.indexOf(".", 0) < 0) {
+                        window.alert("Please enter a valid e-mail address.");
+                        email.focus();
+                        return false;
+                    }
                     if (phone.value === "") {
                         window.alert("Please enter your phone number.");
                         contact.focus();
                         return false;
                     }
 
-                    return false;
+                    return true
 
                 }
             </script>

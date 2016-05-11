@@ -263,6 +263,7 @@
                     var name = document.contact.fullname;
                     var mail = document.contact.email;
                     var phone = document.contact.contact;
+                    var post = document.contact.message;
 
                     if (name.value === "") {
                         window.alert("Please enter your full name.");
@@ -287,6 +288,11 @@
                     if (phone.value === "") {
                         window.alert("Please enter your phone number.");
                         contact.focus();
+                        return false;
+                    }
+                    if (post.value === "") {
+                        window.alert("Empty message can't be send.");
+                        message.focus();
                         return false;
                     }
 

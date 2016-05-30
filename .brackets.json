@@ -2,6 +2,7 @@
     "jscodehints.detectedExclusions": [
         "/home/cynthia/Documents/github/personal/Registration form validation using javascript with example _ Web CodeHelpers_files/plusone.js",
         "HTML.js",
-        "/home/cynthia/Documents/github/personal/Registration form validation using javascript with example _ Web CodeHelpers_files/show_ads_impl.js"
+        "/home/cynthia/Documents/github/personal/Registration form validation using javascript with example _ Web CodeHelpers_files/show_ads_impl.js",
+        "/home/cynthia/Documents/github/personal/Registration form validation using javascript with example _ Web CodeHelpers_files/shBrushJScript.js"
     ]
 }

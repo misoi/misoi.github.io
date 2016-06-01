@@ -15,6 +15,9 @@
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="css/component.css" type="text/css">
+    <link rel="stylesheet" href="css/default.css" type="text/css">
 
 </head>
 
@@ -147,13 +150,83 @@
                     <h1 class="font centre slideExpandUp">Portfolio</h1>
                 </div>
                 <div class="large-12 columns hi"></div>
+                <div class="container demo-1">
+                    <!-- Top Navigation -->
 
-                <div class="large-4 columns">
+
+                    <ul class="grid cs-style-1">
+                        <li>
+                            <figure>
+                                <img src="img/Screenshot.png" alt="img01">
+                                <img src="img/Screenshot.png" alt="img01">
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/Screenshot.png" alt="img01">
+                                <figcaption>
+                                    <img src="img/Screenshot.png" alt="img01">
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/Screenshot.png" alt="img01">
+                                <figcaption>
+                                    <img src="img/Screenshot.png" alt="img01">
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/Screenshot.png" alt="img01">
+                                <figcaption>
+                                    <img src="img/Screenshot.png" alt="img01">
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/Screenshot.png" alt="img01">
+                                <figcaption>
+                                    <img src="img/Screenshot.png" alt="img01">
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/Screenshot.png" alt="img01">
+                                <figcaption>
+                                    <img src="img/Screenshot.png" alt="img01">
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--- <div class="large-4 columns">
+                     <div class="container demo-1">
+        <!-- Top Navigation -->
+
+
+                <!--- <ul class="grid cs-style-1">
+            <li>
+                <figure>
+                    <img src="img/Screenshot.png" alt="img01">
+                    <figcaption>
+                        <img src="img/Screenshot.png">
+                    </figcaption>
+                </figure>
+            </li></ul></div>
+<!--
                     <a href="http://jordan.bitballoon.com/"><img src="img/Screenshot.png" class="img">
                         <br>
                         <p class="font fu">psd to html 1</p>
                     </a>
+-->
 
+                <!--
                 </div>
                 <div class="large-4 columns">
 
@@ -171,6 +244,7 @@
 
                 </div>
                 <div class="large-12 columns h1 white"></div>
+-->
             </div>
             <!--footer-->
 
@@ -301,23 +375,6 @@
 
                 }
             </script>
-            <!--            body script-->
-            <script>
-                $(function () {
-                    $('a[href*="#"]:not([href="#"])').click(function () {
-                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                            var target = $(this.hash);
-                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                            if (target.length) {
-                                $('html, body').animate({
-                                    scrollTop: target.offset().top
-                                }, 1000);
-                                return false;
-                            }
-                        }
-                    });
-                });
-            </script>
 
             <script src="js/textval.js"></script>
             <!--texts validation-->
@@ -331,6 +388,8 @@
             <script src="js/vendor/what-input.js"></script>
             <script src="js/vendor/foundation.js"></script>
             <script src="js/app.js"></script>
+            <script src="js/toucheffects.js"></script>
+            <!----portfolio script-->
 
         </div>
     </div>

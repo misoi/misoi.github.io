@@ -8,7 +8,7 @@
 
 .grid li {
     display: inline-block;
-    width: 440px;
+    width: 300px;
     margin: 0;
     padding: 20px;
     text-align: left;
@@ -24,13 +24,14 @@
     max-width: 100%;
     display: block;
     position: relative;
+    border-radius: 10%;
 }
 
 .grid figcaption {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding: 10px;
     background: #2c3f52;
     color: #ed4e6e;
 }
@@ -43,15 +44,6 @@
 
 .grid figcaption span:before {
     content: 'by ';
-}
-
-.grid figcaption a {
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: inline-block;
-    background: #ed4e6e;
-    color: #fff;
 }
 
 
@@ -76,10 +68,10 @@
 .no-touch .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption {
     opacity: 1;
-    -webkit-transform: translate(15px, 15px);
-    -moz-transform: translate(15px, 15px);
-    -ms-transform: translate(15px, 15px);
-    transform: translate(15px, 15px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
 }
 
 .cs-style-1 figcaption h3 {

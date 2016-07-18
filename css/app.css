@@ -15,7 +15,7 @@ body {
 
 .me {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 70px;
+    font-size: 65px;
     color: #E564A5;
 }
 
@@ -30,7 +30,7 @@ body {
 .nav-container {
     position: fixed;
     top: 0;
-    z-index: 100;
+    z-index: 20;
     width: 250px;
     height: 100%;
     background-color: transparent;
@@ -800,6 +800,8 @@ cursive;*/
 }
 
 .portfolio {
-    background-image: url(../img/201611813730314Macbook%20Image%20for%20Coding%20Ad.jpg);
+    background-image: url(../img/img.jpg);
     background-repeat: no-repeat;
+    background: cover;
+    max-width: 100%;
 }
